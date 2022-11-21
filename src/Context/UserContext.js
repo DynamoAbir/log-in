@@ -24,6 +24,8 @@ const auth=getAuth(app);
                 {children}
             </AuthContext.Provider>
         </div>
+
+        
     );
 };
 
