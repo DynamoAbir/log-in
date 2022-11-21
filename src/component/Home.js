@@ -5,7 +5,7 @@ const Home = () => {
     const {user}= useContext (AuthContext);
     return (
         <div>
-            <h2>This is Home {user?.displayName&& <span>{user.displayName}</span>} </h2>
+            <h2>This is Home {user?.email&& <span>{user.email}</span>} </h2>
         </div>
     );
 };

@@ -20,6 +20,7 @@ const Register = () => {
         .then(result =>{
           const user = result.user;
           console.log('register User', user);
+          form.reset();
         })
 
         .catch( error=> {
